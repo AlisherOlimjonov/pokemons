@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;300&family=Poppins:ital,wght@1,100&family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    gap: 1rem;
+    width: 20rem;
+    height: 25rem;
+    border-radius: 2rem;
+    
+}
+.input{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.searchBtn{
+    background-color: transparent;
+    border-radius: 1rem;
+    padding: 1rem 1.1rem;
+}
+.search{
+    padding: 1rem 1.1rem;
+    border-radius: 1rem;
+
+}
+#alphabet ,#price{
+    padding: 1rem 1.1rem;
+    border-radius: 1rem;
+
+}
+#select, .load{
+    padding: 1rem 1.1rem;
+    border-radius: 1rem;
+}
+.pokeimg{
+    display: block;
+    margin: auto;
+    width: 40%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.uzunlik{
+    border: 2px solid;
+    padding: 1rem 1.1rem;
+    border-radius: 1rem;
+}
+
+.primediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.plusbtn , .minusbtn{
+    padding: .5rem 1rem ;
+    border-radius: .5rem;
+    font-weight: bold;
+}
+.add{
+    width: 1.5rem;
+    position: absolute;
+    right: -8rem;
+    top: -1rem;
+}
+.icon{
+    position: relative;
+}
